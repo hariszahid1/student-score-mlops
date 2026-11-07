@@ -11,6 +11,10 @@ Same pipeline as the house-price lab: DVC → S3, scikit-learn + MLflow (MAE), F
 | `house-price-project` | `student-score-project` |
 | `house-api` | `student-score-api` |
 
-**S3:** `s3://aqsa-mlops-dvc-2026/dvc`  
-**Docker Hub:** `harris944/student-score-api`  
-**GitHub:** `hariszahid1/student-score-mlops`
+**Champion:** linear model (MAE ≈ 0.79)
+
+**S3 (DVC):** `s3://haris-mlops-dvc-2026/aqsa-mlops-dvc-2026/dvc`  
+*(Target bucket name `aqsa-mlops-dvc-2026` — IAM currently allows writes under `haris-mlops-dvc-2026`; remote `aqsa-target` points at the dedicated bucket once policy includes it.)*
+
+**Docker Hub:** https://hub.docker.com/r/harris944/student-score-api  
+**GitHub:** https://github.com/hariszahid1/student-score-mlops
