@@ -1,0 +1,16 @@
+mlruns/
+mlflow.db
+model.pkl
+champion.pkl
+metrics.json
+__pycache__/
+.venv/
+.pytest_cache/
+*.pyc
+.dvc/tmp/
+.dvc/cache/
+.dvc/config.local
+.dockerhub_token
+*_accessKeys.csv
+dvc-user_accessKeys.csv
+/students.csv

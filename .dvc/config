@@ -1,0 +1,9 @@
+[core]
+    analytics = false
+    remote = storage
+['remote "storage"']
+    url = s3://haris-mlops-dvc-2026/aqsa-mlops-dvc-2026/dvc
+    region = us-east-1
+['remote "aqsa-target"']
+    url = s3://aqsa-mlops-dvc-2026/dvc
+    region = us-east-1
